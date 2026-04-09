@@ -114,8 +114,11 @@ main {
                         /* ẩn nội dung khi hover bị tràn ra ngoài */
                         overflow: hidden;
                         width: 80%;
+                        height: 80%;
                         img {
                             /* hiệu ứng diễn ra trong 3s */
+                            width: 100%;
+                            margin: 0 auto;
                             transition-duration: 3s;
                             &:hover {
                                 /* Hiệu ứng zoom */
